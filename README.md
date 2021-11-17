@@ -1,2 +1,3 @@
 # AtCoder
-My codes for programming contests of AtCoder
+My codes related to AtCoder
+- contests: 
