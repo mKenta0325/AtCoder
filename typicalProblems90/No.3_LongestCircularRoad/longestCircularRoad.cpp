@@ -7,6 +7,10 @@ using namespace std ;
 
 int N ;
 
+/*
+方針：各頂点を始点として dfs を適用する．
+計算量：O(N^2)
+
 const int UNDISCOVERED = 0 ;
 const int DISCOVERED = 1 ;
 const int PROCESSED = 2 ;
@@ -67,3 +71,4 @@ int main() {
 
   cout << find_max_dist(dists) + 1 << endl ;
 }
+*/
