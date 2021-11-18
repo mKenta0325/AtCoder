@@ -1,4 +1,4 @@
 # AtCoder
 My codes related to AtCoder
-- contests:
-- cppBasic:
+- contests: codes submitted to contests in AtCoder
+- cppBasic: codes for studying basic operations in C++
