@@ -26,11 +26,11 @@ void set_dists_dfs(int s, vector< set<int> > &adj_list, vector< vector<int> > &d
     int u = container.top() ;
     container.pop() ;
     for (int v : adj_list.at(u)) {
-      if (node_status.at(v) == UNDISCOVERED) {
-        container.push(v) ;
-        node_status.at(v) = DISCOVERED ;
-        ds_s.at(v) = ds_s.at(u) + 1 ;
-      }
+      if (node_status.at(v) != UNDISCOVERED)
+        continue ;
+      container.push(v) ;
+      node_status.at(v) = DISCOVERED ;
+      ds_s.at(v) = ds_s.at(u) + 1 ;
     }
     node_status.at(u) = PROCESSED ;
   }
