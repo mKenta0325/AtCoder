@@ -1,0 +1,16 @@
+h1 {
+  text-align: center ;
+  color: blue ;
+}
+li {
+  color: green ;
+}
+.foodLi {
+  color: red ;
+}
+.drinkLi {
+  color: black ;
+}
+#testImg {
+  float: right ;
+}
