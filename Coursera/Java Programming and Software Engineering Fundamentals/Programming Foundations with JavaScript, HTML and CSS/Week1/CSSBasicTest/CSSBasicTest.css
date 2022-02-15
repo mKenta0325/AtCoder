@@ -1,8 +1,9 @@
 h1 {
   text-align: center ;
+  text-decoration: underline ;
   color: blue ;
 }
-li {
+ul li {
   color: green ;
 }
 .foodLi {
