@@ -27,15 +27,21 @@ function markDone (item) {
 /* Step 7 below here */
 function remove (item) {
     // remove item completely from document
-    item.remove();
+    if (item.className == 'finished')
+      item.remove();
 }
 
 /* Step 11 below here */
 function doAbout() {
-
+  var about = document.getElementById('divabout');
+  about.innerHTML = "Author is Kenta Nakano" ;
+  about.className = "aboutcolor" ;
 }
 
 /* Step 14 below here */
 function clearAbout() {
-
+  var about = document.getElementById('divabout') ;
+  if (about.className != "aboutcolor")
+    return ;
+  about.remove() ;
 }

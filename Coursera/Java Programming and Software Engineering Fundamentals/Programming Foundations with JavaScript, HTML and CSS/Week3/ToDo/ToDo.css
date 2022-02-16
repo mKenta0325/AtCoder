@@ -48,16 +48,21 @@ input[type="button"] {
 
 #addButton {
    padding: 10px;
+   width: 60px ;
 }
 
 /* Step 10 below here */
 
 .aboutcolor {
-
+  background-color: yellow ;
+  width: 300px ;
+  font-size: 20px ;
+  margin: 10px ;
 }
 
 /* Step 12 below here */
 
 #divabout {
-
+  padding: 10px;
+  width: 60px ;
 }
